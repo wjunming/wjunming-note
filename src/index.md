@@ -5,17 +5,17 @@ layout: home
 hero:
   name: "wjunming note"
   text: "我的技术、业务和一些其他笔记"
-  tagline:  "好记性不如烂键盘……"
+  tagline:  "好记性不如烂笔头……"
   actions:
     - theme: brand
       text: 技术
-      link: /markdown-examples
+      link: /tech/curl
     - theme: alt
       text: 业务
-      link: /api-examples
+      link: /business/seal
     - theme: alt
       text: 其他
-      link: /other
+      link: /other/finishes/material-list
 
 features:
   - title: Feature A
