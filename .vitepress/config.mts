@@ -3,6 +3,7 @@ export default ({
   title: "WJUNMING NOTE",
   description: "wjunming note",
   srcDir: 'src',
+  lastUpdated: true,
   themeConfig: {
     darkModeSwitchLabel: '主题',
     lightModeSwitchTitle: '切换到浅色模式',
@@ -59,7 +60,7 @@ export default ({
       }
     ],
     lastUpdated: {
-      text: '最后更新于：',
+      text: '最后更新于',
       formatOptions: {
         dateStyle: 'full',
         timeStyle: 'medium'
