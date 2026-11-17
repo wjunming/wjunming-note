@@ -67,7 +67,7 @@ export default ({
       }
     },
     footer: {
-      message: 'Released under the MIT License.',
+      message: '<a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2026079819号</a>',
       copyright: 'Copyright © 2026-present Wjunming'
     },
     search: {
