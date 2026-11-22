@@ -2,9 +2,11 @@
 export default ({
   title: "WJUNMING NOTE",
   description: "wjunming note",
+  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]],
   srcDir: 'src',
   lastUpdated: true,
   themeConfig: {
+    logo: '/logo.svg',
     darkModeSwitchLabel: '主题',
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',

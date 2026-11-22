@@ -18,11 +18,17 @@ hero:
       link: /other/finishes/material-list
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 🛠️
+    title: 技术笔记
+    details: 记录常用工具和技术实践，方便日后查阅
+    link: /tech/curl
+  - icon: 📋
+    title: 业务笔记
+    details: 整理印章、签章等业务知识，积累工作经验
+    link: /business/seal
+  - icon: 🏠
+    title: 其他记录
+    details: 收集其他实用信息，记录生活中的点滴
+    link: /other/finishes/material-list
 ---
 
