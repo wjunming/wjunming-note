@@ -232,7 +232,7 @@ curl -s -o /dev/null https://www.example.com
 指定只输出错误信息
 
 ``` bash
-curl -S https://www.example.com
+curl -sS https://www.example.com
 ```
 
 ## -u
