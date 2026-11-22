@@ -67,7 +67,14 @@ export default ({
       }
     },
     footer: {
-      message: '<a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2026079819号</a>',
+      message: `
+        <span style="display: inline-block; margin: 0 0.5em;">
+          <a href="https://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank">京ICP备2026079819号</a>
+        </span>
+        <span style="display: inline-block; margin: 0 0.5em;">
+          <a href="https://beian.mps.gov.cn/#/query/webSearch?code=11010502050029" rel="noreferrer" target="_blank"><img src="/beian.png" alt="" style="display: inline-block; width: 16px; height: 18px; vertical-align: middle; margin-right: 4px;">京公网安备11010502050029号</a>
+        </span>
+      `,
       copyright: 'Copyright © 2026-present Wjunming'
     },
     search: {
