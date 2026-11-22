@@ -132,7 +132,7 @@ curl -G -d 'pageNo=1' -d 'pageSize=10' https://www.example.com
 如果需要URL编码，可以结合`--data-urlencode`参数
 
 ``` bash
-curl -G --data-urlencode -d 'comment=hello world' https://www.example.com
+curl -G --data-urlencode 'comment=hello world' https://www.example.com
 ```
 
 ## -H
@@ -268,7 +268,7 @@ curl -v https://www.example.com
 `--trace`参数也可用于调试，还会输出原始的二进制数据
 
 ``` bash
-curl --trace https://www.example.com
+curl --trace trace.log https://www.example.com
 ```
 
 ## -V
